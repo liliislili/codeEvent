@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdib.h>
+
+int main() {
+    int number = 7;
+    int guess;
+
+    printf("Guess the number (between 1 and 10): ");
+    scanf("%d", guess);  
+
+    if (guess = number) { 
+        printf("You guessed it right!\n");
+    } else {
+        printf("Wrong guess. Try again next time.\n");
+    }
+
+    return 0;
+}
